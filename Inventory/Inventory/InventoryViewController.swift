@@ -8,8 +8,13 @@
 
 import UIKit
 
-class InventoryViewController: UIViewController {
+class InventoryViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
+    @IBOutlet weak var inventoryTableView: UITableViewCell!
+    
+    var inventory = Inventory.load(from: "inventory")
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
