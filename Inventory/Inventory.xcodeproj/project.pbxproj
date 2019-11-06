@@ -16,6 +16,8 @@
 		D5DEE3AD2373817C00D95472 /* InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3AC2373817C00D95472 /* InventoryTests.swift */; };
 		D5DEE3B82373817D00D95472 /* InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3B72373817C00D95472 /* InventoryUITests.swift */; };
 		D5DEE3C7237382A200D95472 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3C6237382A200D95472 /* InventoryViewController.swift */; };
+		D5DEE3C9237382F700D95472 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3C8237382F700D95472 /* Inventory.swift */; };
+		D5DEE3CB237383CA00D95472 /* inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = D5DEE3CA237383CA00D95472 /* inventory.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D5DEE3B72373817C00D95472 /* InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryUITests.swift; sourceTree = "<group>"; };
 		D5DEE3B92373817D00D95472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5DEE3C6237382A200D95472 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		D5DEE3C8237382F700D95472 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		D5DEE3CA237383CA00D95472 /* inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inventory.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 		D5DEE3C52373818700D95472 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D5DEE3C8237382F700D95472 /* Inventory.swift */,
+				D5DEE3CA237383CA00D95472 /* inventory.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DEE3CB237383CA00D95472 /* inventory.json in Resources */,
 				D5DEE3A22373817C00D95472 /* LaunchScreen.storyboard in Resources */,
 				D5DEE39F2373817C00D95472 /* Assets.xcassets in Resources */,
 				D5DEE39A2373817A00D95472 /* Main.storyboard in Resources */,
@@ -272,6 +279,7 @@
 			files = (
 				D5DEE39D2373817A00D95472 /* Inventory.xcdatamodeld in Sources */,
 				D5DEE3C7237382A200D95472 /* InventoryViewController.swift in Sources */,
+				D5DEE3C9237382F700D95472 /* Inventory.swift in Sources */,
 				D5DEE3932373817A00D95472 /* AppDelegate.swift in Sources */,
 				D5DEE3952373817A00D95472 /* SceneDelegate.swift in Sources */,
 			);
