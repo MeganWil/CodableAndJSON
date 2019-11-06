@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		D5DEE3932373817A00D95472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3922373817A00D95472 /* AppDelegate.swift */; };
 		D5DEE3952373817A00D95472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3942373817A00D95472 /* SceneDelegate.swift */; };
-		D5DEE3972373817A00D95472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3962373817A00D95472 /* ViewController.swift */; };
 		D5DEE39A2373817A00D95472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DEE3982373817A00D95472 /* Main.storyboard */; };
 		D5DEE39D2373817A00D95472 /* Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE39B2373817A00D95472 /* Inventory.xcdatamodeld */; };
 		D5DEE39F2373817C00D95472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DEE39E2373817C00D95472 /* Assets.xcassets */; };
 		D5DEE3A22373817C00D95472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DEE3A02373817C00D95472 /* LaunchScreen.storyboard */; };
 		D5DEE3AD2373817C00D95472 /* InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3AC2373817C00D95472 /* InventoryTests.swift */; };
 		D5DEE3B82373817D00D95472 /* InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3B72373817C00D95472 /* InventoryUITests.swift */; };
+		D5DEE3C7237382A200D95472 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEE3C6237382A200D95472 /* InventoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		D5DEE38F2373817A00D95472 /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DEE3922373817A00D95472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5DEE3942373817A00D95472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5DEE3962373817A00D95472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5DEE3992373817A00D95472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5DEE39C2373817A00D95472 /* Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inventory.xcdatamodel; sourceTree = "<group>"; };
 		D5DEE39E2373817C00D95472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		D5DEE3B32373817C00D95472 /* InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DEE3B72373817C00D95472 /* InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryUITests.swift; sourceTree = "<group>"; };
 		D5DEE3B92373817D00D95472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DEE3C6237382A200D95472 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				D5DEE3C52373818700D95472 /* Model */,
 				D5DEE3922373817A00D95472 /* AppDelegate.swift */,
+				D5DEE3C6237382A200D95472 /* InventoryViewController.swift */,
 				D5DEE3942373817A00D95472 /* SceneDelegate.swift */,
-				D5DEE3962373817A00D95472 /* ViewController.swift */,
 				D5DEE3982373817A00D95472 /* Main.storyboard */,
 				D5DEE39E2373817C00D95472 /* Assets.xcassets */,
 				D5DEE3A02373817C00D95472 /* LaunchScreen.storyboard */,
@@ -271,7 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5DEE39D2373817A00D95472 /* Inventory.xcdatamodeld in Sources */,
-				D5DEE3972373817A00D95472 /* ViewController.swift in Sources */,
+				D5DEE3C7237382A200D95472 /* InventoryViewController.swift in Sources */,
 				D5DEE3932373817A00D95472 /* AppDelegate.swift in Sources */,
 				D5DEE3952373817A00D95472 /* SceneDelegate.swift in Sources */,
 			);
