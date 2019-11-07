@@ -60,7 +60,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="inventoryTableView" destination="rHc-jd-axa" id="ayW-GW-zLb"/>
+                        <outlet property="inventoryTableView" destination="pWo-nF-gPW" id="KfB-cx-JEj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
